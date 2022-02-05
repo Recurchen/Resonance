@@ -1,0 +1,20 @@
+#Post_Heading {
+    color: #6b705c;
+    font-family: Monospace, "Monaco";
+}
+
+#post_content {
+    color: #9c6644;
+}
+
+#single_comment {
+    background-color: #E9EDC9;
+}
+
+#comment_owner {
+    color: grey;
+}
+
+#comment_content {
+    color: #9c6644;
+}
