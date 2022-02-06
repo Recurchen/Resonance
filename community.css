@@ -7,7 +7,130 @@ h3 {
     color: #CCD5AE;
 }
 
-#post_heading {
-    color: #6b705c;
-    font-family: Monospace, "Monaco";
+#search_area {
+    margin-top: 20px;
+}
+
+
+#query {
+    border: 0px;
+    border-radius: 50px;
+    width: 50%;
+    height: 50px;
+    background-color: #E9EDC9;
+    padding: 20px;
+}
+
+#search_button{
+    width: 15%;
+    border: none;
+    background-color: #CCD5AE;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#search_word{
+    color: #6B705C;    
+    font-family: Arial;
+    font-style: bold;
+}
+#bar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    top: 10%;
+    background: rgba(240, 239, 235, 0.5);
+}
+#d{
+    margin-left: auto;
+    margin-top: auto;
+    /* position: relative; */
+    /* top:0%; */
+    /* left: -80%; */
+    font-family: Arial;
+    font-size: 32px;
+}
+#newpost_button{
+    margin-top: -40%;
+    margin-left: 80%;
+    width: 15%;
+    border: none;
+    background-color: #CCD5AE;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#newpost_word{
+    color: #6B705C;    
+    font-family: Arial;
+    font-style: bold;
+}
+
+
+#community_heading{
+    margin-top: 0%;
+    width: 100%;
+    height: 200px;
+    background-color: #FEFAE0
+}
+
+#group_name{
+    position: relative;
+    width: 318px;
+    height: 55px;
+    left: 20px;
+    top: 30px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    
+    color: #6B705C;
+
+}
+
+#group_info {
+    position: relative;
+    width: 549px;
+    height: 44px;
+    float: left;
+    left: 2%;
+    top: -35%;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+
+    color: #D4A373;
+}
+
+.community_left{
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.profile{
+    width : 200px;    
+}
+
+#group_info{
+    margin-top: 10%;
+    font-family: Arial;
+
+}
+
+#posts {
+    float: left;
+    margin-left: 0%;
+    margin-top: -5%;
+
+    font-family: Arial;
+    font-size: 18px;
+    ;
 }
