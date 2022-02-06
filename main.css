@@ -3,11 +3,110 @@ a {
     color: black;
 }
 
-h2 {
+#login_word {
     color: #d4a373;
 }
 
 #community_name {
     color: #6b705c;
     font-family: Monospace, "Monaco";
+}
+
+#main_heading{
+width: 1440px;
+height: 327px;
+left: 0px;
+top: 111px;
+
+background-color: #FEFAE0;
+
+}
+
+#welcome{
+    font-family: Arial;
+    font-style: normal;
+    font-size: 64px;
+}
+
+#search_area {
+    margin-top: 20px;
+}
+
+
+#query {
+    border: 0px;
+    border-radius: 50px;
+    width: 50%;
+    height: 50px;
+    background-color: #E9EDC9;
+    padding: 20px;
+}
+
+#search_button{
+    width: 15%;
+    border: none;
+    background-color: #CCD5AE;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#search_word{
+    color: #6B705C;    
+    font-family: Arial;
+    font-style: bold;
+}
+
+#communities{
+    background-color: #FEFAE0;;
+}
+
+#community{
+    height: 200px;
+    border: solid;
+    border-color: #d4a373;
+
+}
+
+
+/* .community_title {
+    display: inline-block;
+    margin-left: 20%;
+} */
+
+
+
+.community_left{
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.profile{
+    width : 100px;    
+}
+
+.community_right{
+    margin-left: 5%;
+    /* display: inline-block; */
+    float: left;
+}
+
+.community_title{
+    
+}
+
+#community_name{
+    color: #6B705C;    
+    font-family: Arial;
+    font-style: bold;
+}
+
+.community_intro{
+    margin-top: 10%;
+
+}
+
+
+.intro_word{
+    font-family: Arial;
 }
