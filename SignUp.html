@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resonance</title>
+    <link rel = "stylesheet" href = "SignUp.css">
+</head>
+<body>
+    <h1 id = "greeting">WELCOME TO RESONANCE</h1>
+    <div id = "getInfo">
+        <form class = "box" action = "SignUp.html" method = "post">
+            <label for = "user" id = "ask_name"> Please Enter Your Username:</label><br>
+            <input type = "text" id = "username" name = "user"><br>
+            <label for = "password" id = "ask_password"> Please Enter Your Password:</label><br>
+            <input type = "text" id ="pw" name = "password"><br>
+            <label for = "confirmPW" id = "ask_confirmation"> Please Confirm Your Password:</label><br>
+            <input type = "text" id ="c_pw" name = "confirm_pw"><br>
+            <input type = "submit" id = "signup_button" value = "Sign Up" onclick = "login_valid()"><br>
+        </form>
+    </div>
+
+    <div>
+        <h2 id = "redirect_cue">Already have an account?</h2>
+        <div id = "redirect">
+            <h2 href = "login.html"><h2 id = "redirect_to_log_in">Log in to your account!</h2></h2>
+        </div>
+        <div id = "redirect">
+            <h2 href = "index.html"><h2 id = "redirect_to_main">Or go back to main page.</h2></h2>
+        </div>
+
+    </div>
+
+    <h1 id = "background"></h1>
+</body>
+</html>

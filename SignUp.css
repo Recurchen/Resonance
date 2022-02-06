@@ -1,0 +1,191 @@
+#greeting {
+    position: absolute;
+    width: 500px;
+    height: 39px;
+    left: 507px;
+    top: 109px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #6B705C;
+}
+#ask_name {
+    position: absolute;
+    width: 415px;
+    height: 37px;
+    left: 522px;
+    top: 214px;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #CCD5AE;
+}
+
+#ask_password {
+    position: absolute;
+    width: 407px;
+    height: 37px;
+    left: 526px;
+    top: 375px;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #CCD5AE;
+}
+
+#ask_confirmation {
+    position: absolute;
+    width: 443px;
+    height: 37px;
+    left: 504px;
+    top: 534px;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #CCD5AE;
+
+}
+
+#username {
+    position: absolute;
+    width: 646px;
+    height: 93px;
+    left: 397px;
+    top: 253px;
+
+    background-color: rgba(240, 239, 235, 0.2);
+    border: 2px solid #CCD5AE;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+#pw {
+    position: absolute;
+    width: 646px;
+    height: 93px;
+    left: 397px;
+    top: 412px;
+
+    background-color: rgba(240, 239, 235, 0.2);
+    border: 2px solid #CCD5AE;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+#c_pw {
+    position: absolute;
+    width: 646px;
+    height: 93px;
+    left: 397px;
+    top: 571px;
+
+    background-color: rgba(240, 239, 235, 0.2);
+    border: 2px solid #CCD5AE;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+#signup_button {
+    position: absolute;
+    width: 474px;
+    height: 93px;
+    left: 475px;
+    top: 731px;
+
+    background-color: #CCD5AE;
+    border-radius: 100px;
+}
+
+#redirect_cue {
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 450px;
+    top: 891px;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #6B705C;
+}
+
+#redirect_to_log_in {
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 738px;
+    top: 891px;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #6B705C;
+}
+
+#redirect_to_main {
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 560px;
+    top: 924px;
+
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #6B705C;
+}
+
