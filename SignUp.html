@@ -8,17 +8,19 @@
     <link rel = "stylesheet" href = "SignUp.css">
 </head>
 <body>
+    <script src = "interaction.js"> </script>
+
     <div id = "main">
         <h1 id = "greeting">WELCOME TO RESONANCE</h1>
         <div id = "getInfo">
-            <form class = "box" action = "SignUp.html" method = "post">
+            <form class = "box" action = "index.html" method = "post">
                 <label for = "user" id = "ask_name"> Please Enter Your Username:</label><br>
                 <input type = "text" id = "username" name = "user"><br>
                 <label for = "password" id = "ask_password"> Please Enter Your Password:</label><br>
                 <input type = "text" id ="pw" name = "password"><br>
                 <label for = "confirmPW" id = "ask_confirmation"> Please Confirm Your Password:</label><br>
                 <input type = "text" id ="c_pw" name = "confirm_pw"><br>
-                <input type = "submit" id = "signup_button" value = "Sign Up" onclick = "login_valid()"><br>
+                <input type = "submit" id = "signup_button" value = "Sign Up" onclick = "signup_valid()"><br>
             </form>
         </div>
 
@@ -30,7 +32,6 @@
             <div id = "redirect">
                 <a href = "index.html"><h2 id = "redirect_to_main">Or go back to main page.</h2></a>
             </div>
-
         </div>
     </div>
 </body>
