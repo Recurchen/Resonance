@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resonance</title>
+    <link rel = "stylesheet" href = "login.css">
 </head>
 <body>
 
     <script src = "interaction.js"> </script>
 
-    <h1> Welcome to resonance</h1>
-    <img src = "cactus.jpeg">
+    <h1 id = "greeting">WELCOME TO RESONANCE</h1>
 
     <div id = "login">
-        <h2> LOGIN</h2>
         <form class = "box" action = "index.html" method = "post">
-            <label for = "fname"> First name:</label><br>
-            <input type = "text" id = "username" placeholder = "Enter your username" name = "fname"><br>
-            <label for = "lname"> Last name:</label><br>
-            <input type = "text" id ="pw" name = "lname">
-            <input type = "submit" name = "submit_button" value = "login" onclick = "login_valid()">
+            <!-- <label for = "fname" id = "ask_fname"> First name:</label><br> -->
+            <input type = "text" id = "username" placeholder = "Username"><br>
+            <!-- <label for = "pw" id = "ask_pw"> Password111</label><br> -->
+            <input type = "text" id ="pw" placeholder = "Password"><br>
+            <input type = "submit" id = "submit_button" value = "login" onclick = "login_valid()">
         </form>
+    </div>
 
+    <div>
+        <h2 id = "redirect_cue">Don't have account yet?</h2>
+        <div id = "redirect">
+            <a href = "SignUp.html"><h2 id = "redirect_to_log_in">Sign up now!</h2></a>
+        </div>
+        <div id = "redirect">
+            <a href = "index.html"><h2 id = "redirect_to_main">Or go back to main page.</h2></a>
+        </div>
     </div>
     
 </body>
